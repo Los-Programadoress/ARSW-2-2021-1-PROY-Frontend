@@ -1,0 +1,39 @@
+.#*
+*.log
+
+# Maven files
+target/
+target
+/target/
+
+# IntelliJ files
+.idea/
+.idea
+*.iml
+
+# Eclipse files
+.settings/
+.settings
+.project/
+.project
+.classpath
+.DS_Store
+/nbproject/
+
+/bin/
+.vscode
+node_modules
+
+# production
+/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Packages & Dependencies
+package-lock.json
+npm-debug.log*
