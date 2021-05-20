@@ -1,0 +1,258 @@
+.App {
+  text-align:center;
+}
+
+a {
+  color: #030303;
+}
+
+/* Game Buttons */
+.game-button {
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  text-decoration: none !important;
+  outline: none !important;
+  font-family: "Carter One", sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 1px #0066a2, -2px 2px 1px #0066a2, 2px -2px 1px #0066a2,
+    -2px -2px 1px #0066a2, 0px 2px 1px #0066a2, 0px -2px 1px #0066a2,
+    0px 4px 1px #004a87, 2px 4px 1px #004a87, -2px 4px 1px #004a87;
+  border: none;
+  margin: 15px 15px 30px;
+  background: repeating-linear-gradient(
+    45deg,
+    #3ebbf7,
+    #3ebbf7 5px,
+    #45b1f4 5px,
+    #45b1f4 10px
+  );
+  border-bottom: 3px solid rgba(16, 91, 146, 0.5);
+  border-top: 3px solid rgba(255, 255, 255, 0.3);
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 8px 15px 10px;
+  box-shadow: 0 6px 0 #266b91, 0 8px 1px 1px rgba(0, 0, 0, 0.3),
+    0 10px 0 5px #12517d, 0 12px 0 5px #1a6b9a, 0 15px 0 5px #0c405e,
+    0 15px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.game-button.red {
+  background: repeating-linear-gradient(
+    45deg,
+    #ff4f4c,
+    #ff4f4c 5px,
+    #ff4643 5px,
+    #ff4643 10px
+  );
+  box-shadow: 0 6px 0 #ae2725, 0 8px 1px 1px rgba(0, 0, 0, 0.3),
+    0 10px 0 5px #831614, 0 12px 0 5px #a33634, 0 15px 0 5px #631716,
+    0 15px 1px 6px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(160, 25, 23, 0.5);
+  text-shadow: 2px 2px 1px #d72d21, -2px 2px 1px #d72d21, 2px -2px 1px #d72d21,
+    -2px -2px 1px #d72d21, 0px 2px 1px #d72d21, 0px -2px 1px #d72d21,
+    0px 4px 1px #930704, 2px 4px 1px #930704, -2px 4px 1px #930704;
+}
+
+.game-button.red:hover {
+  top: 2px;
+  box-shadow: 0 4px 0 #ae2725, 0 6px 1px 1px rgba(0, 0, 0, 0.3),
+    0 8px 0 5px #831614, 0 10px 0 5px #a33634, 0 13px 0 5px #631716,
+    0 13px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+/*Homepage*/
+
+@font-face {
+  font-family: fuente_1;
+  font-size: 100px;
+  src: url(../fonts/ArcadeClassic.ttf);
+}
+
+.titlee {
+  margin-left: 3%;
+}
+
+.btn-info {
+  width: 54px;
+  margin-left: 93%;
+  margin-top: 1%;
+  background-color: rgb(235, 240, 231);
+  border-color: rgb(235, 240, 231);
+}
+.btn-info:hover{
+  background: black;
+  border-color: rgb(235, 240, 231);
+}
+
+.pathColor {
+  fill: black;
+}
+
+.pathColor:hover {
+  fill:rgb(235, 240, 231);
+}
+
+.window {
+  height: auto;
+  padding-bottom: 3%;
+  width: 70%;
+  background: rgb(79, 79, 82);
+  margin-left: 25%;
+  margin-top: 20%;
+  font-size: 27px;
+  border-radius: 2%;
+}
+
+.text {
+  height: 18%;
+  width: 90%;
+  margin-left: 1%;
+  margin-top: 8%;
+  border-radius: 3%;
+  font-size: large;
+  font-family: fuente_1;
+}
+
+.btn-lg {
+  margin-top: 8%;
+  margin-left: 1%;
+  font-family: fuente_1;
+  height: 85%;
+  width: 90%;
+}
+
+.imglacman {
+  width: 81%;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.btnc{
+  width: 50%;
+  font-size: 15px;
+  font-family: fuente_1;
+}
+
+.jugar {
+  font-size: 50px;
+  margin-right: 2%;
+}
+
+.toggle {
+  height: 10%;
+  width: 70%;
+  margin-top: -8%;
+  margin-left: 2%;
+  font-family: fuente_1;
+}
+
+.jprivados {
+  color: rgb(218, 216, 216);
+  margin-top: 8%;
+  font-family: fuente_1;
+}
+
+/* Modal Play/Create CSS */
+
+.cplay{
+  margin-left: 6%;
+  margin-top: 12%;
+}
+
+.btDanger{
+  width: 90px; 
+  height: 35px; 
+  margin-left: 25px;
+}
+
+.labelpass{
+  margin-left: 12px;
+  margin-top: 7px;
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+}
+
+.classCodigo{
+  margin-top: 18px;
+  width: 230px;
+}
+
+.classAcceso{
+  margin-top: 15px;
+  font-size: 17px;
+  margin-left: 10px;
+  color: white;
+}
+
+.classCA{
+  margin-left: 0%;
+  font-size: 10px;
+  color: white;
+}
+
+.classCB{
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: white;
+}
+
+.imgCrearJuego{
+  margin-left: 8px;
+  width: 400px;
+  height: 150;
+}
+
+.classClave::placeholder{
+  text-align: center;
+}
+
+/* Modal join CSS */
+
+.modal-body{
+  height: 90px;
+}
+
+.modal-create {
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.modal-big{
+  width: 300px;
+}
+
+.modal-join {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.medio{
+  height: 150px;
+  width: 1000px;
+}
+
+.cjoin{
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.close{
+  background-color: rgba(0, 0, 0, 0.055);
+}
+
+.classCodigo2{
+  margin-left: 85px;
+  margin-top: 18px;
+  width: 270px;
+}
+
+.imgUnirJuego{
+  margin-left: 80px;
+  width: 230px;
+  height: 27px;
+}
+

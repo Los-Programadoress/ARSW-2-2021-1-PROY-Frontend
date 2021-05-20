@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  background-color: black;
+  text-align: center;
+}
+
+.lacman {
+  position: relative;
+  width: 12px * 28;
+}
+
+@font-face {
+  font-family: fuente_1;
+  font-style: normal;
+  font-weight: normal;
+  src: url(./../../fonts/ArcadeClassic.ttf);
+}
+
+/* Scores */
+.lacman-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  height: 12px * 3.5;
+  color: white;
+  font-family: Hack, monospace;
+  font-size: 25px;
+}
+
+.lacman-score.teamOne {
+  background-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey;
+  left: 54%;
+  top: 44%;
+  width: 50%;
+  height: 10%;
+  font-family: fuente_1;
+  font-size: 45px;
+}
+
+.lacman-score.teamTwo {
+  background-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-color: grey;
+  left: 280%;
+  top: 44%;
+  width: 50%;
+  height: 10%;
+  font-family: fuente_1;
+  font-size: 45px;
+}
+
+.lacman-score.name1 {
+  left: 31.5%;
+  top: 27%;
+  font-size: 25px;
+}
+
+.lacman-score.name2 {
+  left: 257.5%;
+  top: 27%;
+  font-size: 25px;
+}
+
+.lacman-score.name3 {
+  left: 31.5%;
+  top: 82%;
+  font-size: 25px;
+}
+
+.lacman-score.name4 {
+  left: 259.5%;
+  top: 82%;
+  font-size: 25px;
+}
+
+/* Lacman.js Top Row */
+.topInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 60px;
+  height: 100px;
+  color: white;
+}
+
+.topInfo > img {
+  width: 7%;
+  margin: 0;
+  padding: 0;
+}
+
+.topInfo > h1 {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  padding-top: 2%;
+}
+
+.topInfoText {
+  font-size: 2rem;
+  margin: 0;
+  color: white;
+}
+
+.topInfoTextResults {
+  font-size: 3rem;
+  margin: 0;
+  color: white;
+}
+
+.serverFull {
+  color: white;
+}
+
+.gameover {
+  text-align: center;
+  font-size: 7rem;
+  font-family: fuente_1;
+  text-shadow: -2px -2px 1px yellow, 2px 2px 1px orange, -2px 2px 1px yellow,
+    2px -2px 1px yellow;
+}
+
+.game-button.red {
+  background: repeating-linear-gradient(
+    45deg,
+    #ff4f4c,
+    #ff4f4c 5px,
+    #ff4643 5px,
+    #ff4643 10px
+  );
+  box-shadow: 0 6px 0 #ae2725, 0 8px 1px 1px rgba(0, 0, 0, 0.3),
+    0 10px 0 5px #831614, 0 12px 0 5px #a33634, 0 15px 0 5px #631716,
+    0 15px 1px 6px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid rgba(160, 25, 23, 0.5);
+  text-shadow: 2px 2px 1px #d72d21, -2px 2px 1px #d72d21, 2px -2px 1px #d72d21,
+    -2px -2px 1px #d72d21, 0px 2px 1px #d72d21, 0px -2px 1px #d72d21,
+    0px 4px 1px #930704, 2px 4px 1px #930704, -2px 4px 1px #930704;
+}
+
+.game-button.red:hover {
+  top: 2px;
+  box-shadow: 0 4px 0 #ae2725, 0 6px 1px 1px rgba(0, 0, 0, 0.3),
+    0 8px 0 5px #831614, 0 10px 0 5px #a33634, 0 13px 0 5px #631716,
+    0 13px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.game-button.red.pos {
+  position: absolute;
+  left: 88%;
+  top: 1%;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.team.one {
+  left: 27%;
+  top: 32%;
+  height: 15rem;
+}
+
+.team.two {
+  left: 350%;
+  top: 32%;
+  height: 15rem;
+}
+
+/* PLAYERS */
+
+.lacman-player {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.lacman-player.p1 {
+  left: 60%;
+  top: 11%;
+  width: 8rem;
+}
+
+.lacman-player.p2 {
+  left: 290%;
+  top: 10%;
+  width: 7rem;
+}
+
+.lacman-player.p3 {
+  left: 63%;
+  top: 67%;
+  width: 7rem;
+}
+
+.lacman-player.p4 {
+  left: 287%;
+  top: 66%;
+  width: 10rem;
+}
+
+/* FRAMES */
+
+#rectangle {
+  width: 11rem;
+  height: 12rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+}
+
+#minirectangle {
+  width: 9.8rem;
+  height: 2rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.framep1 {
+  left: 54%;
+  top: 8%;
+}
+
+.frameminip1 {
+  left: 57%;
+  top: 31.2%;
+}
+
+.framep2 {
+  left: 280%;
+  top: 8%;
+}
+
+.frameminip2 {
+  left: 283%;
+  top: 31.2%;
+}
+
+.framep3 {
+  left: 54%;
+  top: 63%;
+}
+
+.frameminip3 {
+  left: 57%;
+  top: 86%;
+}
+
+.framep4 {
+  left: 282%;
+  top: 63%;
+}
+
+.frameminip4 {
+  left: 285%;
+  top: 86%;
+}
