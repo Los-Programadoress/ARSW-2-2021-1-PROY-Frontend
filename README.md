@@ -16,10 +16,14 @@
 
 ### 🔎 Descripción del producto
 
-**Descripción general:** Frontend y Server para manejo de eventos del juego multijugador LACMAN.
+**Descripción general:** El presente repositorio contiene el Frontend y Server para manejo de eventos del juego multijugador **LACMAN** que se encuentra en mayor detalle en el repositorio de Backend.
 
-#### 📈 BackEnd: [LACMAN Parte I](https://github.com/Los-Programadoress/ARSW-2-2021-1-PROY)
+#### 📂 Enlace a Backend: [Ir a Repositorio](https://github.com/Los-Programadoress/ARSW-2-2021-1-PROY)
 
-#### 🚀 Despliegue en Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://lacman-si.herokuapp.com)
+## 🚀 Despliegue en Heroku
 
-#### 🚀 Despliegue en Azure: [![Deploy](https://aka.ms/deploytoazurebutton)](https://lacmanmultiplayer.azurewebsites.net)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://lacman-si.herokuapp.com)
+
+## 🚀 Despliegue en Azure
+
+[![Deploy](https://aka.ms/deploytoazurebutton)](https://lacmanmultiplayer.azurewebsites.net)
